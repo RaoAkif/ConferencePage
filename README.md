@@ -1,1 +1,56 @@
-# ConferencePage
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Conference Page
+
+> Description the project.
+
+
+## Built With
+
+- HTML, CSS, JS
+- Bootstrap
+- Technologies used (Not Decided Yet)
+
+## Live Demo
+
+[Live Demo Link](http://raoakif.github.io/ConferencePage)
+
+
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+
+### Setup
+- Clone the Repo
+- Open on local Server
+
+### Deployment
+Deploy on Netlify (Not Decided Yet)
+
+
+## Authors
+
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/RaoAkif)
+- Twitter: [@twitterhandle](https://twitter.com/RaoAkif)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/RaoAkif)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
