@@ -17,6 +17,14 @@
   --color-light-grey: #ebf0ee;
 }
 
+.txt-l {
+    text-align: left;
+}
+
+.txt-c {
+    text-align: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -26,12 +34,11 @@
 
 #landing {
   background-image: url(../images/bg/background_mobile-.png);
-  background-repeat: no-repeat;
   background-size: cover;
   height: 67vh;
 }
 
-#top-nav {
+#landing-child {
   background-color: var(--color-white);
   opacity: 0.93;
   height: 67vh;
@@ -39,7 +46,7 @@
 
 #top-nav-items {
   display: flex;
-  padding: 20px 0 0 20px;
+  padding: 20px 0 20px 20px;
 }
 
 #hamburger {
@@ -48,10 +55,8 @@
 }
 
 .hello-text {
+    margin-top: 30px;
   color: var(--color-secondary);
-  position: absolute;
-  top: 100px;
-  text-align: center;
   font-family: lato;
   font-size: 25px;
   margin-left: 16px;
@@ -69,12 +74,9 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 140px;
-  text-align: left;
   font-family: cocogoose;
   /* font-size: 25px; */
-  margin: 0 16px 0 16px;
+  margin: 8px 16px 0 16px;
   font-size: 35px;
 }
 
@@ -82,8 +84,6 @@
   margin: 16px;
   padding: 20px;
   background-color: var(--color-light-grey);
-  position: absolute;
-  top: 32vh;
   border: white solid 5px;
   font-family: cocogoose;
   font-size: 11px;
@@ -93,8 +93,6 @@
 
 #timing {
   margin: 16px;
-  position: absolute;
-  top: 50vh;
   color: var(--color-grey);
   font-family: lato;
   font-weight: bold;
@@ -103,8 +101,6 @@
 
 #venue {
   margin: 16px;
-  position: absolute;
-  top: 55vh;
   color: var(--color-grey);
   font-family: lato;
   font-size: 18px;
