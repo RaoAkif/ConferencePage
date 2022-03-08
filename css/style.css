@@ -1,9 +1,4 @@
 @font-face {
-  font-family: cocogoose;
-  src: url(../fonts/Cocogoose.ttf);
-}
-
-@font-face {
   font-family: lato;
   src: url(../fonts/Lato-Regular.ttf);
 }
@@ -17,12 +12,16 @@
   --color-light-grey: #ebf0ee;
 }
 
+* {
+  font-family: lato;
+}
+
 .txt-l {
-    text-align: left;
+  text-align: left;
 }
 
 .txt-c {
-    text-align: center;
+  text-align: center;
 }
 
 * {
@@ -32,21 +31,21 @@
   max-width: 100vw;
 }
 
-#landing {
-  background-image: url(../images/bg/background_mobile-.png);
-  background-size: cover;
-  height: 67vh;
+#top-nav {
+  display: none;
 }
 
-#landing-child {
-  background-color: var(--color-white);
-  opacity: 0.93;
-  height: 67vh;
-}
-
-#top-nav-items {
+#nav-items-mobile {
   display: flex;
   padding: 20px 0 20px 20px;
+}
+
+#nav-items-desktop {
+  display: none;
+}
+
+.nav-list-item {
+  padding: 8px;
 }
 
 #hamburger {
@@ -55,9 +54,8 @@
 }
 
 .hello-text {
-    margin-top: 30px;
+  padding-top: 30px;
   color: var(--color-secondary);
-  font-family: lato;
   font-size: 25px;
   margin-left: 16px;
 }
@@ -74,10 +72,19 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: cocogoose;
-  /* font-size: 25px; */
   margin: 8px 16px 0 16px;
   font-size: 35px;
+}
+
+#landing {
+  background-image: url(../images/bg/background_mobile.png);
+  background-size: cover;
+}
+
+#landing-child {
+  background-color: var(--color-white);
+  opacity: 0.93;
+  padding-bottom: 20px;
 }
 
 .landing-box {
@@ -85,7 +92,6 @@
   padding: 20px;
   background-color: var(--color-light-grey);
   border: white solid 5px;
-  font-family: cocogoose;
   font-size: 11px;
   color: var(--color-grey);
   line-height: 1.8em;
@@ -94,7 +100,6 @@
 #timing {
   margin: 16px;
   color: var(--color-grey);
-  font-family: lato;
   font-weight: bold;
   font-size: 32px;
 }
@@ -102,8 +107,203 @@
 #venue {
   margin: 16px;
   color: var(--color-grey);
-  font-family: lato;
   font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  #top-nav {
+    padding: 8px 10vh 8px 0;
+    display: block;
+    background-color: var(--color-primary);
+    color: var(--color-light-grey);
+  }
+
+  #top-nav-items {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+  }
+
+  #top-nav-items > * {
+    padding: 0 16px 0 16px;
+  }
+
+  #nav-items-mobile {
+    display: none;
+  }
+
+  #nav-items-desktop {
+    padding: 8px 0 8px 0;
+    display: flex;
+    background: var(--color-white);
+    justify-content: space-around;
+  }
+
+  #nav-items-list {
+    padding: 8px;
+    list-style: none;
+    display: flex;
+    color: var(--color-primary);
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #landing {
+    background-image: url(../images/bg/background_desktop.png);
+    background-size: cover;
+  }
+
+  #landing-body-home {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+  }
+
+  .hello-text {
+    padding-top: 50px;
+    color: var(--color-secondary);
+    font-size: 60px;
+  }
+
+  .page-title {
+    background: -webkit-linear-gradient(
+      45deg,
+      #ff0000,
+      #c04000,
+      #ff5f1f,
+      #c04000,
+      #ff0000
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 8px 16px 0 16px;
+    font-size: 100px;
+  }
+
+  #landing {
+    background-image: url(../images/bg/background_mobile.png);
+    background-size: cover;
+  }
+
+  #landing-child {
+    background-color: var(--color-white);
+    opacity: 0.93;
+    padding-bottom: 20px;
+  }
+
+  .landing-box {
+    width: 60%;
+    margin: 16px;
+    padding: 20px;
+    background-color: var(--color-light-grey);
+    border: var(--color-light-grey) solid 10px;
+    font-size: 16px;
+    color: var(--color-grey);
+    line-height: 1.8em;
+  }
+
+  #timing {
+    margin: 16px;
+    color: var(--color-grey);
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  #venue {
+    margin: 16px;
+    color: var(--color-grey);
+    font-size: 22px;
+  }
+}
+
+#contact-request,
+#contact-email {
+  font-size: 22px;
+  color: var(--color-grey);
+}
+
+#contact-email {
+  margin: 8px 0 8px 0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#logo-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0 16px 0;
+}
+
+#logo-section > img {
+  margin: 16px;
+  width: 90%;
+}
+
+#logo-heading {
+  margin: 16px;
+  color: var(--color-grey);
+  font-size: 24px;
+  width: 70%;
+}
+
+#logo-details {
+  margin: 16px;
+  color: var(--color-grey);
+  font-size: 16px;
+  width: 70%;
+}
+
+.sec {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0 16px 0;
+}
+
+.sec-hd {
+  margin: 16px;
+  color: var(--color-grey);
+  font-size: 24px;
+  width: 70%;
+}
+
+.sec-dts {
+  margin: 16px;
+  color: var(--color-grey);
+  font-size: 16px;
+  width: 70%;
+}
+
+#past-event {
+  position: relative;
+  text-align: center;
+}
+#past-event-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#past-events {
+  border-top: var(--color-light-grey) solid 1px;
+  padding-top: 12px;
+}
+
+#past-event > img {
+  margin: 8px;
+  width: 80%;
+}
+
+.li-0 {
+  list-style: none;
 }
 
 #events {
@@ -117,7 +317,6 @@
 
 #event-heading {
   margin: 16px 0 8px 0;
-  font-family: lato;
   font-size: 20px;
   color: var(--color-white);
 }
@@ -150,13 +349,11 @@
 
 .event-name {
   color: var(--color-secondary);
-  font-family: lato;
   font-size: 18px;
 }
 
 .event-desc {
   color: var(--color-light-grey);
-  font-family: lato;
   text-align: justify;
   font-size: 14px;
   line-height: 1.4em;
@@ -171,7 +368,6 @@
   text-align: center;
   font-size: 18px;
   color: var(--color-light-grey);
-  font-family: lato;
 }
 
 #speakers {
@@ -183,7 +379,6 @@
 
 #speaker-heading {
   margin: 16px 0 8px 0;
-  font-family: lato;
   font-size: 20px;
   color: var(--color-primary);
 }
@@ -224,19 +419,16 @@
 .speaker-name {
   font-size: 18px;
   font-weight: bold;
-  font-family: lato;
 }
 
 .speaker-position {
   font-size: 14px;
   font-style: italic;
-  font-family: lato;
   color: var(--color-secondary);
 }
 
 .speaker-bio {
   font-size: 14px;
-  font-family: lato;
   text-align: justify;
   color: var(--color-grey);
 }
@@ -255,7 +447,6 @@
 }
 
 #more-text {
-  font-family: lato;
   text-transform: uppercase;
 }
 
@@ -276,7 +467,6 @@
 
 #partner-heading {
   margin: 16px 0 8px 0;
-  font-family: lato;
   font-size: 20px;
   color: var(--color-tertiary);
 }
@@ -304,7 +494,6 @@
 }
 
 .copyright-text {
-  font-family: lato;
   color: var(--color-primary);
   font-size: 14px;
   font-weight: bold;
