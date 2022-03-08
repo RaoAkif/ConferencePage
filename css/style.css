@@ -1,5 +1,5 @@
 @font-face {
-  font-family: lato;
+  font-family: ThemeFont;
   src: url(../fonts/Lato-Regular.ttf);
 }
 
@@ -12,10 +12,6 @@
   --color-light-grey: #ebf0ee;
 }
 
-* {
-  font-family: lato;
-}
-
 .txt-l {
   text-align: left;
 }
@@ -25,6 +21,7 @@
 }
 
 * {
+  font-family: ThemeFont;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
@@ -61,13 +58,14 @@
 }
 
 .page-title {
-  background: -webkit-linear-gradient(
+  background:
+    -webkit-linear-gradient(
     45deg,
-    #ff0000,
+    #f00,
     #c04000,
     #ff5f1f,
     #c04000,
-    #ff0000
+    #f00
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -150,11 +148,6 @@
     display: none;
   }
 
-  #landing {
-    background-image: url(../images/bg/background_desktop.png);
-    background-size: cover;
-  }
-
   #landing-body-home {
     display: flex;
     flex-direction: column;
@@ -169,13 +162,14 @@
   }
 
   .page-title {
-    background: -webkit-linear-gradient(
+    background:
+      -webkit-linear-gradient(
       45deg,
-      #ff0000,
+      #f00,
       #c04000,
       #ff5f1f,
       #c04000,
-      #ff0000
+      #f00
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -285,6 +279,7 @@
   position: relative;
   text-align: center;
 }
+
 #past-event-details {
   position: absolute;
   top: 50%;
@@ -481,7 +476,6 @@
 
 .partner-img {
   margin: 8px 4px 8px 4px;
-  /* width: 100px; */
   height: 20px;
 }
 
