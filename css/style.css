@@ -394,6 +394,7 @@
 .event-name {
   color: var(--color-secondary);
   font-size: 18px;
+  width: 20%;
 }
 
 .event-desc {
@@ -401,6 +402,7 @@
   text-align: justify;
   font-size: 14px;
   line-height: 1.4em;
+  width: 60%;
 }
 
 #join-event {
@@ -792,16 +794,9 @@
     margin-bottom: 16px;
   }
 
-  .partner {
-    width: 200px;
-    height: 200px;
-    background: var(--color-grey-border);
-  }
-
   .partner-img {
     margin: 12px;
     width: 200px;
-    /* width: 200px; */
   }
 }
 

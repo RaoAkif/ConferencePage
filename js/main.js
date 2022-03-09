@@ -1,6 +1,6 @@
 const events = [
   {
-    title: "Remembering Faiz",
+    title: "Faiz Talk",
     icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/remembering_faiz.svg",
     description:
       "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
@@ -83,7 +83,7 @@ const partners = [
   },
   {
     name: "React",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/dove.svg",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/react.svg",
   },
   {
     name: "Discord",
@@ -91,11 +91,11 @@ const partners = [
   },
   {
     name: "Gatsby",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/ios.svg",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/gatsby.svg",
   },
   {
-    name: "Google",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/spacex.svg",
+    name: "Google Cloud Platform",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/gcl.svg",
   },
 ];
 
