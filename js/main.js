@@ -35,3 +35,49 @@ const events = [
         "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
     },
 ]
+
+const speakers = [
+    {
+      name: 'Remembering Faiz',
+      picture:
+        '',
+      bio:
+        "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
+    },
+    {
+      name: 'Ghazal Night',
+      picture:
+        '',
+      bio:
+        "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
+    },
+    {
+      name: 'Politcal Debates',
+      picture:
+        '',
+      bio:
+        "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
+    },
+    {
+      name: 'Cultural Meetup',
+      picture:
+        '',
+      bio:
+        "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
+    },
+    {
+      name: 'Music Night',
+      picture:
+        '',
+      bio:
+        "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
+    },
+    {
+      name: 'Music Night',
+      picture:
+        '',
+      bio:
+        "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
+    },
+]
+
