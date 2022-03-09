@@ -853,3 +853,28 @@
 #about-footer {
   background-color: var(--color-light-grey);
 }
+
+#main.active {
+  display: none;
+}
+
+#mobile-popup {
+  display: none;
+}
+
+#mobile-popup.active {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 32px;
+  background: var(--color-light-grey);
+  color: red;
+}
+
+@media (min-width: 768px) {
+  #mobile-popup {
+    display: none;
+  }
+}

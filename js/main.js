@@ -137,4 +137,44 @@ partners.forEach((partner, index) => {
 `;
 });
 
-const menuIcon = document.querySelector('#hamburger');
+const menuIcon = document.querySelector("#hamburger");
+const NavBarPopup = document.querySelector("#mobile-popup");
+const MainDiv = document.querySelector("#main");
+const AllNavItems = document.querySelectorAll(".nav-item");
+
+menuIcon.addEventListener("click", () => {
+    NavBarPopup.classList.toggle("active");
+    MainDiv.classList.toggle("active");
+});
+
+AllNavItems.forEach((i) => {
+  i.addEventListener("click", () => {
+    NavBarPopup.classList.toggle("active");
+  });
+});
+
+const navBarItems = [
+    {
+        name: "Home",
+        id: "/index.html"
+    },
+    {
+        name: "About",
+        id: "/about.html"
+    },
+]
+
+
+navBarItems.forEach((navBarItem, index) => {
+    NavBarPopup.innerHTML += `
+    <img id="close-icon" src="./images/icons/close.svg" alt="close-icon" />
+    <ul id="nav-bar" class="navbar-list-mobile">
+        <li class="nav-item"><a href=${navBarItem.id}>${navBarItem.name}</a></li>
+    </ul>
+  `;
+});
+
+function closeModal() {
+    modalWindow.classList.toggle('active');
+    landingPage.classList.toggle('active');
+  }
