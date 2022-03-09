@@ -76,6 +76,29 @@ const speakers = [
   },
 ];
 
+const partners = [
+  {
+    name: "Beats",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/beats.svg",
+  },
+  {
+    name: "Dove",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/dove.svg",
+  },
+  {
+    name: "Discord",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/discord.svg",
+  },
+  {
+    name: "IOS",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/ios.svg",
+  },
+  {
+    name: "SpaceX",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/spacex.svg",
+  },
+];
+
 const Events = document.querySelector("#events-list");
 
 events.forEach((event, index) => {
@@ -106,25 +129,10 @@ speakers.forEach((speaker, index) => {
 `;
 });
 
-const sponsers = [
-    {
-      name: "Beats",
-      logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/remembering_faiz.svg",
-    },
-    {
-      name: "Dove",
-      logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/ghazal_night.svg",
-    },
-    {
-      name: "Discord",
-      logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/political_debate.svg",
-    },
-    {
-      name: "IOS",
-      logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/cultural_meetup.svg",
-    },
-    {
-      name: "SpaceX",
-      logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/music_night.svg",
-    },
-  ];
+const Partners = document.querySelector(".partners-list");
+
+partners.forEach((partner, index) => {
+  Partners.innerHTML += `
+    <li class="partner"><img src=${partner.logo} alt="spaceX-${index}" class="partner-img"></li>
+`;
+});

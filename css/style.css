@@ -765,7 +765,7 @@
 
 .partner-img {
   margin: 8px 4px 8px 4px;
-  height: 20px;
+  height: 100px;
 }
 
 @media (min-width: 768px) {
@@ -794,7 +794,7 @@
 
   .partner-img {
     margin: 12px;
-    height: 32px;
+    height: 150px;
   }
 }
 
