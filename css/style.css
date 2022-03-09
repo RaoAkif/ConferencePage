@@ -151,6 +151,10 @@
     padding: 0 16px 0 16px;
   }
 
+  #nav-logo {
+    height: 60px;
+  }
+
   #nav-items-mobile {
     display: none;
   }
@@ -167,6 +171,7 @@
     padding: 8px;
     list-style: none;
     display: flex;
+    align-self: self-end;
     color: var(--color-primary);
   }
 
@@ -766,8 +771,8 @@
 }
 
 .partner-img {
-  margin: 8px 4px 8px 4px;
-  height: 100px;
+  margin: 10px;
+  height: 80px;
 }
 
 @media (min-width: 768px) {
@@ -843,4 +848,8 @@
   #logo-footer {
     width: 150px;
   }
+}
+
+#about-footer {
+  background-color: var(--color-light-grey);
 }

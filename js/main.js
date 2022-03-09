@@ -36,7 +36,7 @@ const speakers = [
     name: "Zia Moheyuddin",
     position: "Producer, Director and Television Broadcaster",
     picture:
-      "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/zia_moheyuddin.jpg",
+      "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/speakers/zia_moheyuddin.jpg",
     bio: "Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.",
   },
   {
@@ -57,7 +57,7 @@ const speakers = [
     name: "Naseeruddin Shah",
     position: "Indian Actor",
     picture:
-      "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/naseeruddin-shah.jpg",
+      "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/speakers/naseeruddin-shah.jpg",
     bio: "Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.",
   },
   {
@@ -136,3 +136,5 @@ partners.forEach((partner, index) => {
     <li class="partner"><img src=${partner.logo} alt="spaceX-${index}" class="partner-img"></li>
 `;
 });
+
+const menuIcon = document.querySelector('#hamburger');
