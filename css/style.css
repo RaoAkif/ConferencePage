@@ -869,12 +869,37 @@
   flex-direction: column;
   list-style: none;
   font-size: 32px;
-  background: var(--color-light-grey);
-  color: red;
 }
 
 @media (min-width: 768px) {
   #mobile-popup {
     display: none;
   }
+}
+
+#close-icon {
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#nav-bar {
+  margin: auto;
+  list-style: none;
+  padding-bottom: 200px;
+}
+
+#nav-bar > li {
+  padding: 16px 0 16px 0;
+  font-weight: bold;
+}
+
+#nav-bar > li > a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+#nav-bar-hr {
+  margin: auto;
 }
