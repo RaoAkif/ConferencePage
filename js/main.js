@@ -1,31 +1,31 @@
 const events = [
   {
     title: "Remembering Faiz",
-    icon: "",
+    icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/remembering_faiz.svg",
     description:
       "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
   },
   {
     title: "Ghazal Night",
-    icon: "",
+    icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/ghazal_night.svg",
     description:
       "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
   },
   {
     title: "Politcal Debates",
-    icon: "",
+    icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/political_debate.svg",
     description:
       "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
   },
   {
     title: "Cultural Meetup",
-    icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/79b65169e507764c21c6e8376885a7563f5e6250/images/events/cultural_meetup.svg",
+    icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/cultural_meetup.svg",
     description:
       "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
   },
   {
     title: "Music Night",
-    icon: "",
+    icon: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/06f71e60a00948d9ccd7cc8f296e667be6ecf2a9/images/events/music_night.svg",
     description:
       "Listen to the Poets and their beautiful poetry that would enlighten your spirit and revive the era of Faiz Ahmad Faiz.",
   },
