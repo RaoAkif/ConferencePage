@@ -79,23 +79,23 @@ const speakers = [
 const partners = [
   {
     name: "Beats",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/beats.svg",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/beats.svg",
   },
   {
-    name: "Dove",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/dove.svg",
+    name: "React",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/dove.svg",
   },
   {
     name: "Discord",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/discord.svg",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/discord.svg",
   },
   {
-    name: "IOS",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/ios.svg",
+    name: "Gatsby",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/ios.svg",
   },
   {
-    name: "SpaceX",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/47c33e5b2fd779bb30c7736c43c44cdf5e9904f5/images/partners/spacex.svg",
+    name: "Google",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/spacex.svg",
   },
 ];
 

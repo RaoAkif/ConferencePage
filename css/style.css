@@ -792,9 +792,16 @@
     margin-bottom: 16px;
   }
 
+  .partner {
+    width: 200px;
+    height: 200px;
+    background: var(--color-grey-border);
+  }
+
   .partner-img {
     margin: 12px;
-    height: 150px;
+    width: 200px;
+    /* width: 200px; */
   }
 }
 
