@@ -895,7 +895,7 @@
   padding-bottom: 200px;
 }
 
-#nav-bar > li > a {
+#nav-link {
   text-decoration: none;
   color: var(--color-primary);
 }

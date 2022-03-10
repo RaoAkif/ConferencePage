@@ -41,7 +41,7 @@ const speakers = [
   },
   {
     name: 'Moneeza Hashmi',
-    position: 'Faiz Ahmad Faiz's Daughter',
+    position: 'Faiz Ahmad Faiz Daughter',
     picture:
       'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/moneza-hashmi.jpg',
     bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
@@ -173,6 +173,6 @@ const navBarItems = [
 
 navBarItems.forEach((navBarItem, index) => {
   NavBar.innerHTML += `
-    <li class='nav-item'><a href=${navBarItem.id}>${navBarItem.name}</a></li>
+  <li class='nav-item'><a id='nav-link' href=${navBarItem.id}>${navBarItem.name}</a></li>
   `;
 });
