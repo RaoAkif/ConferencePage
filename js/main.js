@@ -78,20 +78,20 @@ const speakers = [
 
 const partners = [
   {
-    name: "Beats",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/beats.svg",
+    name: "NCA",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/nca.png",
   },
   {
-    name: "React",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/react.svg",
+    name: "Alhamra",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/alhamra.png",
   },
   {
-    name: "Discord",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/discord.svg",
+    name: "KLF",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/klf.png",
   },
   {
-    name: "Gatsby",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/gatsby.svg",
+    name: "LLF",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/llf.png",
   },
   {
     name: "Google Cloud Platform",
