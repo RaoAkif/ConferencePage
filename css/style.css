@@ -804,9 +804,10 @@
   }
 
   .partner-img {
+    padding: 0 16px 0 16px;
     margin: 12px;
     width: 200px;
-    /* height: 200px; */
+    height: 200px;
   }
 }
 

@@ -94,8 +94,8 @@ const partners = [
     logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/llf.png",
   },
   {
-    name: "UDB",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/udb.png",
+    name: "PU",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/pu.png",
   },
 ];
 
