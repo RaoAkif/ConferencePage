@@ -2,7 +2,7 @@
 
 # Conference Page
 
-> Description the project.
+> Faiz International Festival Event Page that contains the information about the annual event held in beautiful heart of Pakistan.
 
 
 ## Built With
