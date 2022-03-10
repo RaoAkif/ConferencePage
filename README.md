@@ -2,7 +2,7 @@
 
 # Conference Page
 
-> Faiz International Festival Event Page that contains the information about the annual event held in beautiful heart of Pakistan.
+> Description the project.
 
 
 ## Built With
@@ -13,9 +13,7 @@
 
 ## Live Demo
 
-[Live Site](http://raoakif.github.io/ConferencePage)
-
-[Live Demo Link](https://www.loom.com/share/0556d9d28d974d49a8d7192eb8d10f70)
+[Live Demo Link](http://raoakif.github.io/ConferencePage)
 
 
 ## Getting Started
