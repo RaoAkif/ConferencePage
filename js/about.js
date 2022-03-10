@@ -1,70 +1,33 @@
-const speakers = [
+const partners = [
   {
-    name: 'Zia Moheyuddin',
-    position: 'Producer, Director and Television Broadcaster',
-    picture:
-      'https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/speakers/zia_moheyuddin.jpg',
-    bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
+    name: 'NCA',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/nca.png',
   },
   {
-    name: 'Moneeza Hashmi',
-    position: 'Faiz Ahmad Faiz Daughter',
-    picture:
-      'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/moneza-hashmi.jpg',
-    bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
+    name: 'Alhamra',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/alhamra.png',
   },
   {
-    name: 'Tina Sani',
-    position: 'Pakistani Singer',
-    picture:
-      'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/tina-sani.jpg',
-    bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
+    name: 'KLF',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/klf.png',
   },
   {
-    name: 'Naseeruddin Shah',
-    position: 'Indian Actor',
-    picture:
-      'https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/speakers/naseeruddin-shah.jpg',
-    bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
+    name: 'LLF',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/llf.png',
   },
   {
-    name: 'Samina Peerzada',
-    position: 'Pakistani Actoress',
-    picture:
-      'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/samina-peerzada.jpg',
-    bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
-  },
-  {
-    name: 'Samia Mumtaz',
-    position: 'Pakistani Actoress',
-    picture:
-      'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/speakers/samia-mumtaz.jpg',
-    bio: 'Seemi Raheel is an one of the oldest PTV actoress, writer and director, and serving this industry from more than 40 years.',
+    name: 'PU',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/pu.png',
   },
 ];
 
-const partners = [
-  {
-    name: 'Beats',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/beats.svg',
-  },
-  {
-    name: 'React',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/react.svg',
-  },
-  {
-    name: 'Discord',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/0877c61e3adb59dfabd3085638ed4be10756a062/images/partners/discord.svg',
-  },
-  {
-    name: 'Gatsby',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/gatsby.svg',
-  },
-  {
-    name: 'Google Cloud Platform',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/gcl.svg',
-  },
-];
+const Partners = document.querySelector('.partners-list');
+
+partners.forEach((partner, index) => {
+  Partners.innerHTML += `
+    <li class='partner'><img src=${partner.logo} alt='spaceX-${index}' class='partner-img'></li>
+`;
+});
 
 const menuIcon = document.querySelector('#hamburger');
 const NavBarPopup = document.querySelector('#mobile-popup');
@@ -100,7 +63,7 @@ const navBarItems = [
   },
 ];
 
-navBarItems.forEach((navBarItem, index) => {
+navBarItems.forEach((navBarItem) => {
   NavBar.innerHTML += `
     <li class='nav-item'><a id='nav-link' href=${navBarItem.id}>${navBarItem.name}</a></li>
   `;
