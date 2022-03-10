@@ -94,8 +94,8 @@ const partners = [
     logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/llf.png",
   },
   {
-    name: "Google Cloud Platform",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/970492589f7cc41912ad3e532b3317d636577487/images/partners/gcl.svg",
+    name: "UDB",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/udb.png",
   },
 ];
 
