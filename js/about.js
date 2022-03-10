@@ -1,27 +1,27 @@
 const partners = [
   {
-    name: "NCA",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/nca.png",
+    name: 'NCA',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/nca.png',
   },
   {
-    name: "Alhamra",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/alhamra.png",
+    name: 'Alhamra',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/alhamra.png',
   },
   {
-    name: "KLF",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/klf.png",
+    name: 'KLF',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/klf.png',
   },
   {
-    name: "LLF",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/llf.png",
+    name: 'LLF',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/llf.png',
   },
   {
-    name: "PU",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/pu.png",
+    name: 'PU',
+    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/pu.png',
   },
 ];
 
-const Partners = document.querySelector(".partners-list");
+const Partners = document.querySelector('.partners-list');
 
 partners.forEach((partner, index) => {
   Partners.innerHTML += `
@@ -29,37 +29,37 @@ partners.forEach((partner, index) => {
 `;
 });
 
-const menuIcon = document.querySelector("#hamburger");
-const NavBarPopup = document.querySelector("#mobile-popup");
-const NavBar = document.querySelector("#nav-bar");
-const MainDiv = document.querySelector("#main");
-const AllNavItems = document.querySelectorAll(".nav-item");
-const Close = document.querySelector("#close-icon");
+const menuIcon = document.querySelector('#hamburger');
+const NavBarPopup = document.querySelector('#mobile-popup');
+const NavBar = document.querySelector('#nav-bar');
+const MainDiv = document.querySelector('#main');
+const AllNavItems = document.querySelectorAll('.nav-item');
+const Close = document.querySelector('#close-icon');
 
-menuIcon.addEventListener("click", () => {
-  NavBarPopup.classList.toggle("active");
-  MainDiv.classList.toggle("active");
+menuIcon.addEventListener('click', () => {
+  NavBarPopup.classList.toggle('active');
+  MainDiv.classList.toggle('active');
 });
 
-Close.addEventListener("click", () => {
-  NavBarPopup.classList.toggle("active");
-  MainDiv.classList.toggle("active");
+Close.addEventListener('click', () => {
+  NavBarPopup.classList.toggle('active');
+  MainDiv.classList.toggle('active');
 });
 
 AllNavItems.forEach((i) => {
-  i.addEventListener("click", () => {
-    NavBarPopup.classList.toggle("active");
+  i.addEventListener('click', () => {
+    NavBarPopup.classList.toggle('active');
   });
 });
 
 const navBarItems = [
   {
-    name: "Home",
-    id: "/ConferencePage/index.html",
+    name: 'Home',
+    id: './index.html',
   },
   {
-    name: "About",
-    id: "./ConferencePage/about.html",
+    name: 'About',
+    id: './about.html',
   },
 ];
 
