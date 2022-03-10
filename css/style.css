@@ -60,6 +60,56 @@
   list-style: none;
 }
 
+#main.active {
+  display: none;
+}
+
+#mobile-popup {
+  display: none;
+}
+
+#mobile-popup.active {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  #mobile-popup {
+    display: none;
+  }
+}
+
+#close-icon {
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#nav-bar {
+  margin: auto;
+  list-style: none;
+  padding-bottom: 200px;
+}
+
+#nav-link {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+#nav-bar > li {
+  padding: 16px 0 16px 0;
+  font-weight: bold;
+}
+
+#nav-bar-hr {
+  margin: auto;
+}
+
 .hello-text {
   padding-top: 30px;
   color: var(--color-secondary);
@@ -87,13 +137,13 @@
 }
 
 #landing {
-  background-image: url(../images/bg/background_mobile.png);
+  background-image: url(../images/bg/faiz_festival_background_mob.jpg);
   background-size: cover;
 }
 
 #landing-child {
   background-color: var(--color-white);
-  opacity: 0.93;
+  opacity: 0.9;
   padding-bottom: 20px;
 }
 
@@ -151,6 +201,10 @@
     padding: 0 16px 0 16px;
   }
 
+  #nav-logo {
+    height: 60px;
+  }
+
   #nav-items-mobile {
     display: none;
   }
@@ -167,6 +221,7 @@
     padding: 8px;
     list-style: none;
     display: flex;
+    align-self: self-end;
     color: var(--color-primary);
   }
 
@@ -213,13 +268,13 @@
   }
 
   #landing {
-    background-image: url(../images/bg/background_mobile.png);
+    background-image: url(../images/bg/faiz_festival_background.jpg);
     background-size: cover;
   }
 
   #landing-child {
     background-color: var(--color-white);
-    opacity: 0.93;
+    opacity: 0.8;
     padding-bottom: 20px;
   }
 
@@ -342,8 +397,10 @@
 }
 
 #past-event > img {
+  border: var(--color-light-grey) solid 2px;
   margin: 8px;
   width: 80%;
+  height: 220px;
 }
 
 .li-0 {
@@ -394,6 +451,7 @@
 .event-name {
   color: var(--color-secondary);
   font-size: 18px;
+  width: 20%;
 }
 
 .event-desc {
@@ -401,6 +459,7 @@
   text-align: justify;
   font-size: 14px;
   line-height: 1.4em;
+  width: 60%;
 }
 
 #join-event {
@@ -500,6 +559,7 @@
   #past-event > img {
     margin: 8px;
     width: 40%;
+    height: 60vh;
   }
 
   .li-0 {
@@ -764,8 +824,8 @@
 }
 
 .partner-img {
-  margin: 8px 4px 8px 4px;
-  height: 20px;
+  margin: 10px;
+  height: 80px;
 }
 
 @media (min-width: 768px) {
@@ -793,8 +853,10 @@
   }
 
   .partner-img {
+    padding: 0 16px 0 16px;
     margin: 12px;
-    height: 32px;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -841,4 +903,8 @@
   #logo-footer {
     width: 150px;
   }
+}
+
+#about-footer {
+  background-color: var(--color-light-grey);
 }
