@@ -87,13 +87,13 @@
 }
 
 #landing {
-  background-image: url(../images/bg/background_mobile.png);
+  background-image: url(../images/bg/faiz_festival_background_mob.jpg);
   background-size: cover;
 }
 
 #landing-child {
   background-color: var(--color-white);
-  opacity: 0.93;
+  opacity: 0.9;
   padding-bottom: 20px;
 }
 
@@ -218,13 +218,13 @@
   }
 
   #landing {
-    background-image: url(../images/bg/background_mobile.png);
+    background-image: url(../images/bg/faiz_festival_background.jpg);
     background-size: cover;
   }
 
   #landing-child {
     background-color: var(--color-white);
-    opacity: 0.93;
+    opacity: 0.8;
     padding-bottom: 20px;
   }
 
@@ -347,8 +347,10 @@
 }
 
 #past-event > img {
+  border: var(--color-light-grey) solid 2px;
   margin: 8px;
   width: 80%;
+  height: 220px;
 }
 
 .li-0 {
@@ -507,6 +509,8 @@
   #past-event > img {
     margin: 8px;
     width: 40%;
+    height: 60vh;
+
   }
 
   .li-0 {
