@@ -79,23 +79,23 @@ const speakers = [
 const partners = [
   {
     name: "NCA",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/nca.png",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/nca.png",
   },
   {
     name: "Alhamra",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/alhamra.png",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/alhamra.png",
   },
   {
     name: "KLF",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/klf.png",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/klf.png",
   },
   {
     name: "LLF",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/llf.png",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/llf.png",
   },
   {
     name: "PU",
-    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/JavaScript_Mapping/images/test/pu.png",
+    logo: "https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/pu.png",
   },
 ];
 
