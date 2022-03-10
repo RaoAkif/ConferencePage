@@ -171,7 +171,7 @@ const navBarItems = [
   },
 ];
 
-navBarItems.forEach((navBarItem, index) => {
+navBarItems.forEach((navBarItem) => {
   NavBar.innerHTML += `
   <li class='nav-item'><a id='nav-link' href=${navBarItem.id}>${navBarItem.name}</a></li>
   `;
