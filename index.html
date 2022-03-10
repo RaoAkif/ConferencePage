@@ -4,12 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Home | Conference Page</title>
 </head>
 <body>
+    <div id="mobile-popup">
+        <img id="close-icon" src="./images/icons/close.svg" alt="close-icon" />
+        <img src="./images/logos/logo_faiz_festival_image.png" alt="nav bar image" id="nav-bar-image">
+        <hr id="nav-bar-hr" class="solid-divider-line txt-c">
+    <ul id="nav-bar" class="navbar-list-mobile">
+    </ul>
+    </div>
     <div id="main">
-        Hello World
+        <div id="landing">
+            <div id="landing-child">
+                <div id="top-nav">
+                    <ul id="top-nav-items">
+                        <li id="google_translate_element"></li>
+                    </ul>
+                </div>
+                <div id="nav">
+                    <ul id="nav-items-mobile">
+                        <li id="hamburger"><i class="fas fa-bars"></i></li>
+                    </ul>
+                    <nav id="nav-items-desktop">
+                        <img id="nav-logo" src="./images/logos/logo_faiz_festival_text.png" alt="">
+                        <ul id="nav-items-list">
+                            <li class="nav-list-item"><a href="./index.html">Home</a></li>
+                            <li class="nav-list-item"><a href="./about.html">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="landing-body-home">
+                    <p class="hello-text txt-l">"The Cultural Fest is here"</p>
+                    <h1 class="page-title txt-l">Let's Smile Again &#128512;<br> 6<sup>th</sup> Faiz Festival 2022</h1>
+                    <div class="landing-box ">
+                        The sixth Faiz Festival started with the collaboration of Jang Group of Newspapers at Alhamra Friday.  Faiz’s memorable photographs with friends and family were on exhibition at the Alhamra Art Gallery. The pictures on exhibit were all in sepia tone waiting for the fans to come.
+                    </div>
+                    <h2 id="timing">2022.03.04(Fri) ~ 07(Sun)</h2>
+                    <h2 id="venue">@Alhamra Halls, Mall Road, Lahore</h2>
+                </div>
+            </div>
+        </div>
+        <div id="events">
+            <h3 id="event-heading">Main Events</h3>
+            <hr class="solid-divider-line">
+            <ul id="events-list">
+            </ul>
+            <div id="join-event">Join Faiz Festival 2022</div>
+        </div>
+        <div id="speakers">
+            <h3 id="speaker-heading">Speakers</h3>
+            <hr class="solid-divider-line">
+            <ul id="speakers-list">
+            </ul>
+            <div id="speakers-more">
+                <p id="more-text">More</p>
+                <i id="more-icon" class="fas fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <div id="partners">
+            <h3 id="partner-heading">Partners</h3>
+            <hr class="solid-divider-line">
+            <ul class="partners-list">
+            </ul>
+        </div>
+        <footer class="copyright">
+            <img src="./images/logos/logo_faiz_festival_text.png" alt="" id="logo-footer">
+            <p class="copyright-text-home">© 2021 Copyright Faiz Festival. Some rights reserved.</p>
+        </footer>
     </div>
     <script src="./js/main.js"></script>
+    <script>
+        function googleTranslateElementInit() {
+       new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+       }
+     </script>
+     
+     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
 </html>
