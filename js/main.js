@@ -163,11 +163,11 @@ AllNavItems.forEach((i) => {
 const navBarItems = [
   {
     name: 'Home',
-    id: '/index.html',
+    id: './index.html',
   },
   {
     name: 'About',
-    id: '/about.html',
+    id: './about.html',
   },
 ];
 
