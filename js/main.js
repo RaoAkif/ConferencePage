@@ -103,10 +103,12 @@ const Events = document.querySelector('#events-list');
 
 events.forEach((event, index) => {
   Events.innerHTML += `
-  <li class='event'>
-  <img class='event-icon' src=${event.icon} alt='event-icon-${index}' >
-  <h4 class='event-name txt-c'>${event.title}</h4>
-  <p class='event-desc'>${event.description}</p>
+  <li>
+  <article class='event'>
+    <img class='event-icon' src=${event.icon} alt='event-icon-${index}' >
+    <h4 class='event-name txt-c'>${event.title}</h4>
+    <p class='event-desc'>${event.description}</p>
+  </article>
   </li>
 `;
 });
