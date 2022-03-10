@@ -66,14 +66,6 @@ const partners = [
   },
 ];
 
-const Partners = document.querySelector(".partners-list");
-
-partners.forEach((partner, index) => {
-  Partners.innerHTML += `
-    <li class="partner"><img src=${partner.logo} alt="spaceX-${index}" class="partner-img"></li>
-`;
-});
-
 const menuIcon = document.querySelector("#hamburger");
 const NavBarPopup = document.querySelector("#mobile-popup");
 const NavBar = document.querySelector("#nav-bar");
