@@ -1,34 +1,3 @@
-const partners = [
-  {
-    name: 'NCA',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/nca.png',
-  },
-  {
-    name: 'Alhamra',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/alhamra.png',
-  },
-  {
-    name: 'KLF',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/klf.png',
-  },
-  {
-    name: 'LLF',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/llf.png',
-  },
-  {
-    name: 'PU',
-    logo: 'https://raw.githubusercontent.com/RaoAkif/ConferencePage/main/images/partners/pu.png',
-  },
-];
-
-const Partners = document.querySelector('.partners-list');
-
-partners.forEach((partner, index) => {
-  Partners.innerHTML += `
-    <li class='partner'><img src=${partner.logo} alt='spaceX-${index}' class='partner-img'></li>
-`;
-});
-
 const menuIcon = document.querySelector('#hamburger');
 const NavBarPopup = document.querySelector('#mobile-popup');
 const NavBar = document.querySelector('#nav-bar');
