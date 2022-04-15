@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Conference Page
 
 > Faiz International Festival Event Page that contains the information about the annual event held in beautiful heart of Pakistan.
