@@ -3,6 +3,8 @@
 > Faiz International Festival Event Page that contains the information about the annual event held in beautiful heart of Pakistan.
 > This Event Page, Faiz International Festival maps the Events, Speakers and Sponsors data, that is in the form of Object, on to the DOM through JavaScript.
 
+![Conference Page](https://user-images.githubusercontent.com/61361037/167278202-8cf43863-60fb-4651-bd7b-d569f7d7af8b.PNG)
+
 
 ## Built With
 
