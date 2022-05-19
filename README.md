@@ -10,7 +10,6 @@
 
 - HTML, CSS, JS
 - Bootstrap
-- Technologies used (Not Decided Yet)
 
 ## Live Demo
 
