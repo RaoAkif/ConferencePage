@@ -9,7 +9,6 @@
 ## Built With
 
 - HTML, CSS, JS
-- Bootstrap
 
 ## Live Demo
 
