@@ -118,19 +118,6 @@
 }
 
 .page-title {
-  /* background:
-    -webkit-linear-gradient(
-    45deg,
-    #f00,
-    #c04000,
-    #ff5f1f,
-    #c04000,
-    #f00
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
-
   color: var(--color-secondary);
   margin: 8px 16px 0 16px;
   font-size: 35px;
@@ -250,19 +237,6 @@
   }
 
   .page-title {
-    /* background:
-      -webkit-linear-gradient(
-      45deg,
-      #f00,
-      #c04000,
-      #ff5f1f,
-      #c04000,
-      #f00
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
-
     color: var(--color-secondary);
     font-size: 95px;
   }
